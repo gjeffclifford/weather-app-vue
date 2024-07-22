@@ -1,6 +1,8 @@
 // app global css in SCSS form
 .q-page-container {
+  overflow-y: scroll;
   background-image: url('dark-stormy-clouds.jpg');
+  background-repeat:round;
 }
 .q-pa-md{
   box-shadow: 5px 5px 15px 10px gray;
@@ -26,6 +28,9 @@
 }
 .text-gray {
   color: gray;
+}
+em {
+  cursor: pointer;
 }
 .text {
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
