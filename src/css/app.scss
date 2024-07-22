@@ -1,0 +1,105 @@
+// app global css in SCSS form
+.q-page-container {
+  background-image: url('dark-stormy-clouds.jpg');
+}
+.q-pa-md{
+  box-shadow: 5px 5px 15px 10px gray;
+  // border: 1px gray solid;
+  background-color: rgba(255, 255, 255, 0.658);
+  // filter: blur(2px);
+}
+.m-10 {
+  min-width: 7em;
+  max-width: 7em;
+}
+.d-flex {
+  display: flex;
+}
+.m-1 {
+  margin: 1em
+}
+.content-center {
+  justify-content: center;
+}
+.text-center {
+  text-align: center;
+}
+.text-gray {
+  color: gray;
+}
+.text {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 25px;
+}
+.col {
+  padding: 5px;
+  background-color:none;
+
+}
+.w-100 {
+  width: 100%;
+}
+.h-100 {
+  height: 100%;
+}
+td {
+  // font-weight: 300;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 25px;
+}
+table{
+  border: none;
+}
+
+::-webkit-scrollbar-track {
+  background-color: none;
+  border-radius: 10px;
+  width: 5px;
+  background-color: rgba(125, 125, 125, 0.582);
+}
+::-webkit-scrollbar-thumb {
+  background-color: rgba(253, 253, 253, 0.855);
+  border-radius: 10px;
+}
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+.container-weather{
+  width:80%;
+}
+
+@media only screen and (max-width: 600px) and (min-width: 300px) {
+  td {
+    // font-weight: 300;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 15px;
+    img {
+      height: 40px;
+    }
+  }
+  .container-weather{
+    width:90%;
+  }
+  .col-xs-12 {
+    width: 100% !important;
+  }
+}
+@media only screen and (max-width: 299px) {
+  td {
+    // font-weight: 300;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 13px;
+    img {
+      height: 40px;
+    }
+  }
+  .container-weather{
+    width:100%;
+  }
+
+  ::-webkit-scrollbar {
+    width: 5px;
+  }
+}
+#map { height: 10000px; }
